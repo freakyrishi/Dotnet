@@ -1,0 +1,22 @@
+﻿/*ushort
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+    internal class Class1
+    {
+      static void Main()
+        {
+            ushort b;
+            Console.WriteLine("enter number");
+            b=Convert.ToUInt16(Console.ReadLine());
+            Console.WriteLine(b);
+        }
+    }
+}
+*/
