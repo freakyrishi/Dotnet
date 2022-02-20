@@ -1,4 +1,4 @@
-﻿/*write 1 program to perform addition
+﻿/*
 
 using System;
 using System.Collections.Generic;
@@ -18,7 +18,8 @@ namespace ConsoleApp1
             Console.WriteLine("enter 2nd number");
             num2=Convert.ToInt32(Console.ReadLine());
             res = num1 + num2;
-            Console.WriteLine("Addition =" + res);
+            Console.WriteLine("Addition =" + (Convert.ToInt32(res)+4));
+            Console.WriteLine($"Your name is {num1}and your address is{num2}");
             Console.ReadLine();
         }
     }
