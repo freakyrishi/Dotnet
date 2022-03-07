@@ -8,13 +8,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    internal class Class4
+    internal class gh
     {
         static void droom(ref int x)
         {
             x--;
         }
-        static void Main()
+        public static void Main()
         {
             int f = 90;
             droom(ref f);
